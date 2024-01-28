@@ -1,0 +1,144 @@
+body{
+    background-color: #aacf39;
+    margin:0%;
+    height:100%;
+    margin:0;
+    padding:0;
+    background-image: url("cliffs-of-moher.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+.active {
+    background-color: #aacf39;
+  }
+  
+
+.navbar {
+    width: 100%;
+    background-color: 	#1592ce;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar .search-container {
+    float: right;
+    
+  }
+  
+  .navbar input[type=text] {
+    padding: 12px;
+    margin-top: 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 24px;
+    width:auto;
+  }
+  
+  .navbar .search-container button {
+    float: right;
+    padding: 12px;
+    margin-top: 0;
+    margin-right: 0;
+    background: #1592ce;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar .search-container button:hover {
+    background: #0b6894;
+  }
+  
+  .navbar a:not(.active):hover {
+    background-color: #0b6894;
+  }
+  
+
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
+.callOut {
+    display:inline-block;
+    background-color: transparent;
+    font-size: 5em;
+    color:white;
+    padding:5%;
+    width:5em;
+    font-weight: bold;
+  }
+
+.bookButton {
+    float: left;
+    padding: 12px;
+    margin:5px;
+    background: #1592ce;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.bookButton:hover{
+    background-color: #0b6894;
+}
+
+.contactContainer {
+    display:table;
+    width: 100%;
+  }
+  
+.contactForm {
+    width:40%;
+      display: inline-block;
+      background-color:transparent;
+      margin-left: 20%;
+      padding:10px;
+      color: white;
+  }
+
+  .contactForm input{
+    width: 100%;
+    background-color:transparent;
+    border-color: #dcf590;
+}
+
+.contactForm textarea{
+    width: 100%;
+    background-color:transparent;
+    border-color: #dcf590;
+}
+
+.contactForm button {
+    float: left;
+    padding: 10px;
+    margin:2px;
+    width: 100%;
+    background: #1592ce;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.contactForm button:hover{
+    background-color: #0b6894;
+}
